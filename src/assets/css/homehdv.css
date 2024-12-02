@@ -1,0 +1,243 @@
+.card-offset {
+  margin-bottom: 16px;
+}
+
+.card-tips {
+  margin-top: 6px;
+  font-size: 12px;
+  font-weight: 400;
+  color: #999;
+}
+
+.async-data-wrapper {
+  margin: 24px auto;
+}
+
+.async-data-wrapper .loading {
+  font-size: 0;
+}
+
+.async-data-wrapper .failed,
+.async-data-wrapper .no-data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-size: 12px;
+}
+
+.async-data-wrapper .no-data .image {
+  display: block;
+  width: 56px;
+  height: 56px;
+  margin: 0 auto 4px;
+}
+
+.async-data-wrapper .no-data .message {
+  text-align: center;
+  color: #999;
+}
+
+.async-data-wrapper .loading-item {
+  display: inline-block;
+  width: 100%;
+  background-color: #f7f7f7;
+}
+
+.async-data-wrapper .reload {
+  color: #2673dd;
+  cursor: pointer;
+}
+
+.card {
+  width: 100%;
+  max-width: 100%;
+  border-radius: 2px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 1px 4px 0 rgb(0 0 0 / 10%);
+  box-shadow: 0 1px 4px 0 rgb(0 0 0 / 10%);
+  padding: 24px 24px 8px;
+}
+
+.to-do-box {
+  margin-bottom: -24px;
+}
+
+.to-do-box-item,
+.to-do-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.to-do-box-aitem {
+  width: 184px;
+  padding: 8px 0;
+  margin-bottom: 15px;
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.to-do-box-aitem:after {
+  content: "";
+  width: 1px;
+  height: 35px;
+  background-color: #e5e5e5;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  margin-top: -18px;
+}
+
+.to-do-box-aitem:nth-child(4n) {
+  border-right: none;
+}
+
+.to-do-box-aitem:nth-child(4n):after {
+  width: 0;
+}
+
+.to-do-box-aitem:hover {
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+
+.item-title {
+  margin-bottom: 7px;
+  font-size: 16px;
+  min-height: 18px;
+  color: #2673dd;
+  font-weight: 500;
+  font-weight: var(--font-weight);
+}
+
+.item-desc {
+  font-size: 12px;
+  color: #333;
+  max-height: 42px;
+  overflow: hidden;
+  padding: 0 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: relative;
+}
+
+.todo-new-icon {
+  background-image: -webkit-gradient(
+    linear,
+    right top,
+    left top,
+    color-stop(9%, #fe9373),
+    color-stop(91%, #ee4d2d)
+  );
+  background-image: linear-gradient(270deg, #fe9373 9%, #ee4d2d 91%);
+  border: 1px solid #fff;
+  border-radius: 9px 2px 9px 9px;
+  position: relative;
+  display: inline-block;
+  width: 29px;
+  height: 16px;
+  line-height: 16px;
+  vertical-align: -2px;
+  margin-left: 4px;
+}
+
+.todo-new-icon .text {
+  display: inline-block;
+  margin-left: -7px;
+  color: #fff;
+  font-size: 20px;
+  -webkit-transform: scale(0.5);
+  transform: scale(0.5);
+  line-height: 14px;
+}
+.content1 {
+  width: 98px;
+  height: 98px;
+  background-color: #fafafa;
+  border-radius: 4px 0 0 4px;
+  color: #e5e5e5;
+  font-style: normal;
+  font-weight: 500;
+  text-align: center;
+  padding-top: 21px;
+  cursor: pointer;
+}
+.doughnut {
+  display: flex;
+  align-items: center;
+  border: 1px solid #eee;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.doughnut .chart {
+  width: 98px;
+  height: 98px;
+  flex-shrink: 0;
+}
+
+.doughnut .content2 {
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  margin: auto 20px;
+  color: #333;
+  text-align: left;
+  font-size: 14px;
+  line-height: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+.shopee-button--link {
+  color: #2673dd;
+  background-color: transparent;
+  border-color: transparent;
+  height: unset;
+  min-width: unset;
+  padding: 0;
+  font-weight: 400;
+}
+.shopee-button .shopee-icon {
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+  display: inline-block;
+  line-height: 0;
+  fill: currentColor;
+}
+.title-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+}

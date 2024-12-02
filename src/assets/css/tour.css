@@ -1,0 +1,764 @@
+/* 25/11 */
+.lp-travel__banner {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.lp-travel__banner img {
+  -o-object-fit: cover;
+  object-fit: cover;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .lp-travel__banner {
+    max-height: 300px;
+  }
+}
+
+.lp-travel__detail {
+  margin: 0 auto;
+  position: relative;
+}
+
+@media (min-width: 768px) {
+  .lp-travel__detail {
+    height: 2087.69px;
+    padding: 100px 0 150px;
+  }
+}
+
+@media (max-width: 767px) {
+  .lp-travel__detail {
+    height: 1015.61px;
+  }
+}
+
+.lp-travel__detail-bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+@media (min-width: 768px) {
+  .lp-travel__detail-bg {
+    background-size: cover;
+    background-image: url("../images/bg-travel.png");
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
+}
+
+@media (max-width: 767px) {
+  .lp-travel__detail-bg {
+    background-size: cover;
+    background-attachment: scroll;
+    background-origin: content-box;
+    background-image: url("../images/bg-travel-sp.png");
+    background-position: center top;
+    background-repeat: repeat;
+  }
+}
+
+.lp-travel__detail-inner {
+  position: relative;
+  margin: 0 auto;
+  height: 100%;
+}
+
+@media (min-width: 768px) {
+  .lp-travel__detail-inner {
+    width: 960px;
+  }
+}
+
+@media (max-width: 767px) {
+  .lp-travel__detail-inner {
+    width: 420px;
+  }
+}
+
+@media (max-width: 575px) {
+  .lp-travel__detail-inner {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .lp-travel__info {
+    padding: 30px 15px 40px;
+  }
+}
+
+.lp-travel__des {
+  color: #000;
+  font-family: "Sarabun", sans-serif;
+  font-size: 36px;
+  line-height: 54px;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .lp-travel__des {
+    font-size: 16px;
+    line-height: 30px;
+  }
+}
+
+.lp-travel__des:not(:last-child) {
+  margin: 0 0 40px;
+}
+
+@media (max-width: 767px) {
+  .lp-travel__des:not(:last-child) {
+    margin: 0 0 15px;
+  }
+}
+
+.lp-travel__map {
+  position: absolute;
+}
+
+@media (min-width: 768px) {
+  .lp-travel__map {
+    width: 960px;
+    height: 1402.02px;
+    top: 435.669px;
+    left: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .lp-travel__map {
+    width: 474.094px;
+    height: 702.543px;
+    top: 272.062px;
+    left: 0;
+  }
+}
+
+@media (max-width: 575px) {
+  .lp-travel__map {
+    width: 100%;
+  }
+}
+
+.lp-travel__map-info {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.lp-travel__map-bg {
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: cover;
+  background-attachment: scroll;
+  background-origin: content-box;
+  position: absolute;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+@media (min-width: 768px) {
+  .lp-travel__map-bg {
+    background-image: url("../images/img-map-travel.png");
+    width: 960px;
+    height: 1402.02px;
+    top: 0px;
+    left: 0px;
+  }
+}
+
+@media (max-width: 767px) {
+  .lp-travel__map-bg {
+    background-image: url("../images/img-map-travel-sp.png");
+    width: 474.094px;
+    height: 702.543px;
+    top: 0;
+    left: 0;
+  }
+}
+
+@media (max-width: 575px) {
+  .lp-travel__map-bg {
+    width: 100%;
+  }
+}
+
+.lp-travel__location {
+  position: absolute;
+}
+
+@media (min-width: 768px) {
+  .lp-travel__location.lc-hanoi {
+    width: 167.177px;
+    height: 72px;
+    top: 538px;
+    left: 321px;
+  }
+}
+
+@media (max-width: 767px) {
+  .lp-travel__location.lc-hanoi {
+    width: 88.9355px;
+    height: 32.5428px;
+    top: 324.519px;
+    left: 156.532px;
+  }
+}
+
+@media (min-width: 768px) {
+  .lp-travel__location.lc-quangninh {
+    width: 143px;
+    height: 48px;
+    top: 578.352px;
+    left: 506.5px;
+  }
+}
+
+@media (max-width: 767px) {
+  .lp-travel__location.lc-quangninh {
+    width: 70.1747px;
+    height: 23.2195px;
+    top: 345.062px;
+    left: 254.659px;
+  }
+}
+
+@media (min-width: 768px) {
+  .lp-travel__location.lc-hagiang {
+    width: 130px;
+    height: 47px;
+    top: 430.352px;
+    left: 274.5px;
+  }
+}
+
+@media (max-width: 767px) {
+  .lp-travel__location.lc-hagiang {
+    width: 66.9787px;
+    height: 19px;
+    top: 272.062px;
+    left: 137.5px;
+  }
+}
+
+@media (min-width: 768px) {
+  .lp-travel__location.lc-sapa {
+    width: 93px;
+    height: 42px;
+    top: 501.352px;
+    left: 104.5px;
+  }
+}
+
+@media (max-width: 767px) {
+  .lp-travel__location.lc-sapa {
+    width: 51.7025px;
+    height: 23.3495px;
+    top: 304.255px;
+    left: 49.7975px;
+  }
+}
+
+@media (min-width: 768px) {
+  .lp-travel__location.lc-nghean {
+    width: 249.177px;
+    height: 114px;
+    top: 804px;
+    left: 171px;
+  }
+}
+
+@media (max-width: 767px) {
+  .lp-travel__location.lc-nghean {
+    width: 130.935px;
+    height: 49.5428px;
+    top: 458.9px;
+    left: 82.5645px;
+  }
+}
+
+@media (min-width: 768px) {
+  .lp-travel__location.lc-mocchau {
+    width: 129.204px;
+    height: 50px;
+    top: 597.352px;
+    left: 53.2959px;
+  }
+}
+
+@media (max-width: 767px) {
+  .lp-travel__location.lc-mocchau {
+    width: 70.1721px;
+    height: 27.1555px;
+    top: 353.062px;
+    left: 26.3279px;
+  }
+}
+
+@media (min-width: 768px) {
+  .lp-travel__location.lc-ninhbinh {
+    width: 234px;
+    height: 52px;
+    top: 725.352px;
+    left: 254.177px;
+  }
+}
+
+@media (max-width: 767px) {
+  .lp-travel__location.lc-ninhbinh {
+    width: 112.436px;
+    height: 24.2516px;
+    top: 417.217px;
+    left: 133.032px;
+  }
+}
+
+@media (min-width: 768px) {
+  .lp-travel__location.lc-quangbinh {
+    width: 196px;
+    height: 99px;
+    top: 931.352px;
+    left: 347.5px;
+  }
+}
+
+@media (max-width: 767px) {
+  .lp-travel__location.lc-quangbinh {
+    width: 103.521px;
+    height: 52.2888px;
+    top: 519.443px;
+    left: 175.711px;
+  }
+}
+
+@media (min-width: 768px) {
+  .lp-travel__location.lc-hue {
+    width: 130.045px;
+    height: 103px;
+    top: 1038.35px;
+    left: 393px;
+  }
+}
+
+@media (max-width: 767px) {
+  .lp-travel__location.lc-hue {
+    width: 64.0451px;
+    height: 48.0001px;
+    top: 575.062px;
+    left: 196.5px;
+  }
+}
+
+@media (min-width: 768px) {
+  .lp-travel__location.lc-danang {
+    width: 165.047px;
+    height: 88px;
+    top: 1071px;
+    left: 535.5px;
+  }
+}
+
+@media (max-width: 767px) {
+  .lp-travel__location.lc-danang {
+    width: 84.9999px;
+    height: 47px;
+    top: 587.062px;
+    left: 265.5px;
+  }
+}
+
+@media (min-width: 768px) {
+  .lp-travel__location.lc-binhdinh {
+    width: 191.964px;
+    height: 154.35px;
+    top: 1206px;
+    left: 576.081px;
+  }
+}
+
+@media (max-width: 767px) {
+  .lp-travel__location.lc-binhdinh {
+    width: 93px;
+    height: 74px;
+    top: 654.062px;
+    left: 290.5px;
+  }
+}
+
+@media (min-width: 768px) {
+  .lp-travel__location.lc-daklak {
+    width: 117px;
+    height: 46.35px;
+    top: 1314px;
+    left: 437.5px;
+  }
+}
+
+@media (max-width: 767px) {
+  .lp-travel__location.lc-daklak {
+    width: 57px;
+    height: 21px;
+    top: 713.062px;
+    left: 217.5px;
+  }
+}
+
+@media (min-width: 768px) {
+  .lp-travel__location.lc-nhatrang {
+    width: 148px;
+    height: 109px;
+    top: 1389px;
+    left: 620.045px;
+  }
+}
+
+@media (max-width: 767px) {
+  .lp-travel__location.lc-nhatrang {
+    width: 80.0001px;
+    height: 74.0001px;
+    top: 749.062px;
+    left: 306.5px;
+  }
+}
+
+@media (min-width: 768px) {
+  .lp-travel__location.lc-dalat {
+    width: 105.857px;
+    height: 47px;
+    top: 1449px;
+    left: 431.177px;
+  }
+}
+
+@media (max-width: 767px) {
+  .lp-travel__location.lc-dalat {
+    width: 55px;
+    height: 22.045px;
+    top: 779.062px;
+    left: 218.5px;
+  }
+}
+
+@media (min-width: 768px) {
+  .lp-travel__location.lc-hcm {
+    width: 116.346px;
+    height: 55px;
+    top: 1503.85px;
+    left: 292.5px;
+  }
+}
+
+@media (max-width: 767px) {
+  .lp-travel__location.lc-hcm {
+    width: 55px;
+    height: 26px;
+    top: 808.062px;
+    left: 149.5px;
+  }
+}
+
+@media (min-width: 768px) {
+  .lp-travel__location.lc-bentre {
+    width: 150.5px;
+    height: 92.064px;
+    top: 1610px;
+    left: 393px;
+  }
+}
+
+@media (max-width: 767px) {
+  .lp-travel__location.lc-bentre {
+    width: 82px;
+    height: 45px;
+    top: 862.062px;
+    left: 190.5px;
+  }
+}
+
+@media (min-width: 768px) {
+  .lp-travel__location.lc-cantho {
+    width: 133.304px;
+    height: 93.6176px;
+    top: 1622.53px;
+    left: 214.196px;
+  }
+}
+
+@media (max-width: 767px) {
+  .lp-travel__location.lc-cantho {
+    width: 71.1956px;
+    height: 49.9997px;
+    top: 864.062px;
+    left: 108.305px;
+  }
+}
+
+@media (min-width: 768px) {
+  .lp-travel__location.lc-phuquoc {
+    width: 168.869px;
+    height: 109.064px;
+    top: 1593px;
+    left: 29.5px;
+  }
+}
+
+@media (max-width: 767px) {
+  .lp-travel__location.lc-phuquoc {
+    width: 93px;
+    height: 60.064px;
+    top: 843.998px;
+    left: 10.5001px;
+  }
+}
+
+/* content */
+.banner-bg {
+  text-align: center;
+}
+
+.banner-bg {
+  margin: auto;
+  width: 90%;
+  margin-top: 6rem;
+}
+
+.line {
+  margin: auto;
+  margin-top: 20px;
+  width: 70%;
+}
+
+.travel-tips {
+  margin-top: 4rem;
+}
+
+.travel-tips .travel-tip__content {
+  margin-top: 2rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.travel-tips .travel-tip__left {
+  width: 54%;
+}
+
+.travel-tips .travel-tip__left .travel-tip__thumb {
+  height: 500px;
+}
+
+.travel-tips .travel-tip__thumb img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.travel-tips .travel-tip__detail {
+  margin-left: 10px;
+}
+
+.travel-tips .travel-tip__title {
+  font-weight: 600;
+  font-size: 15px;
+  color: var(--color-text-title);
+}
+
+.travel-tips .travel-tip__left .travel-tip__title {
+  margin-top: 20px;
+}
+
+.travel-tips .travel-tip__meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+.travel-tips .travel-tip__author {
+  display: flex;
+  align-items: center;
+}
+
+.travel-tips .travel-tip__author img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.travel-tips .travel-tip__name {
+  margin-left: 5px;
+  font-size: 13px;
+  color: var(--color-text);
+}
+
+.travel-tips .travel-tip__time {
+  font-size: 13px;
+  color: var(--color-text);
+}
+
+.travel-tips .travel-tip__right {
+  width: 44%;
+}
+
+.travel-tips .travel-tip__item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 14px;
+}
+
+.travel-tips .travel-tip__right .travel-tip__thumb {
+  width: 50%;
+}
+
+.travel-tips .travel-tip__right .travel-tip__thumb img {
+  height: 112px;
+}
+
+.travel-question {
+  margin-top: 4rem;
+}
+
+.custom-collapse__header-name {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: var(--color-text-title);
+}
+
+.custom-collapse__content {
+  font-size: 17px;
+  line-height: 25px;
+  color: #086915;
+  font-weight: 400;
+}
+
+@media (max-width: 991px) {
+  .custom-collapse__header-name {
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
+
+/* thanh toan */
+
+.payment-online {
+  padding: 0 0 40px;
+  word-break: break-word;
+}
+
+.payment-online__title {
+  color: var(--color-text);
+  font-family: "FS PFBeauSansPro", sans-serif;
+  font-size: 26px;
+  font-weight: 600;
+  letter-spacing: 0.15px;
+  line-height: 36px;
+  margin: 0 0 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* tour-banner */
+.tour-banner {
+  margin-top: 6rem;
+  position: relative;
+}
+
+.tour-banner2 {
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.tour-banner .tour-banner-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  max-height: 400px;
+}
+
+.tour-banner2 .tour-banner-img {
+  max-height: 200px;
+}
+
+.tour-banner2 .tour-banner__text {
+  top: 10%;
+  left: 5rem;
+}
+
+.tour-banner2 .tour-banner-title {
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 2.2rem;
+}
+
+.tour-banner2 .tour-banner-des {
+  font-size: 1.5rem;
+  line-height: 1.6rem;
+}
+
+.tour-banner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.tour-banner2 .button {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  padding: 5px 9px;
+}
+
+.tour-banner .tour-banner__text {
+  position: absolute;
+  top: 22%;
+  color: #fff;
+  width: 60%;
+}
+
+.tour-banner .tour-banner-title {
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 4rem;
+  color: #ffffffde;
+}
+
+.tour-banner .tour-banner-des {
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 2.6rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  color: #ffffffde;
+}
+
+.mainDetail {
+  background-color: #fff;
+  padding: 15px;
+}
+
+.ant-collapse-icon-position-right>.ant-collapse-item>.ant-collapse-header {
+  position: relative;
+  padding: 2px 40px 2px 16px;
+}
+
+.ant-collapse-item.ant-collapse-item-active.custom-collapse__header-name>.ant-collapse-header {
+  color: #F45A06
+}
